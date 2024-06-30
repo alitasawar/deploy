@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .back,
+      .b2 {
+        width: 100%;
+        height: fit-content;
+        background: red;
+      }
+      .b2 {
+        background: #ffffff89;
+        z-index: 10;
+      }
+      .b2 button {
+        top: 50%;
+        font-size: 70px;
+        max-width: max-content;
+        background: #000;
+        color: #fff;
+        border: 0;
+      }
+      .b2 button:nth-child(2) {
+        right: 0;
+      }
+      .b2 button:nth-child(1) {
+        left: 0;
+      }
+      .bg * {
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="back"></div> -->
+    <div class="bg">
+      <div class="b2">
+        <button><</button>
+        <button>></button>
+      </div>
+      <img src="./../../assets/a.png" width="100%" alt="" />
+      <img src="./../../assets/b.png" width="100%" alt="" />
+      <img src="./../../assets/c.png" width="100%" alt="" />
+    </div>
+  </body>
+</html>

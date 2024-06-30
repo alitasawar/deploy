@@ -1,0 +1,145 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+
+body,body *{
+    margin: 0;padding: 0;
+    font-family: sans-serif;
+}
+
+::selection{
+    background: none;
+    cursor: pointer;
+}
+body *{
+    cursor: pointer;
+}
+
+.map{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Member Details by Sami */
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    /* background-color: #f4f4f4; */
+}
+.flex-centerr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main{
+
+    display: flex;
+
+}
+.left{
+    padding: 10px ;
+    flex-direction: column;
+    margin: 0 ,0 ,0, 40px;
+
+}
+.left img {
+    height: 320px;
+    width: 400px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    color: #ff6600;
+    margin-top: 10px;
+}
+
+.icons{
+    display: flex;
+    justify-content: end;
+    padding: 0 20px;
+    margin: 50px 0;
+
+}
+.icons span img{
+    height: 20px;
+    padding: 0 13px;
+
+}
+
+p.description{
+    margin-top: 10px !important;
+    color: #aaa;
+    font-size: 12px;
+}
+.content {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.core-values, .specialization {
+    width: 48%;
+}
+
+.core-values h2, .specialization h2 {
+    margin-bottom: 20px;
+}
+
+.value {
+    margin-bottom: 20px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill-bar {
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 10px;
+}
+
+.skill-level {
+    background-color: #ff6600;
+    height: 10px;
+    border-radius: 5px 0 0 5px;
+}
+.core-values .tab {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #dfdfdf;
+}
+.core-values .tab h3{
+    margin: 0;
+    padding: 15px 20px;
+    border-left: 3px solid orange
+}
+.core-values .span{
+    margin-right: 9px;
+    text-align: center;
+    color: white;
+    height: 20px;
+    width: 20px;
+    background: orange;
+    border-radius: 50%;
+}
+.core-values p{
+  margin-left: 23px;   
+}

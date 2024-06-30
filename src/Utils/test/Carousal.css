@@ -1,0 +1,17 @@
+
+
+
+.carousal-body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.slide-changer {
+  font-size: 50px;
+  background: #333;
+  color: white;
+  position: absolute;
+  bottom: 0;
+}
+
